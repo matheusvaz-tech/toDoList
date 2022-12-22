@@ -15,7 +15,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   color: #262331;
 
-  background: #f5f4f6;
+  background: #e5e5e5;
 }
 
 main {
@@ -55,6 +55,8 @@ form {
   border: 1px solid #d6d4e2;
 
   font-size: 1rem;
+
+  width: 472px;
 }
 
 .inputSearch:focus {
@@ -78,33 +80,28 @@ button {
   cursor: pointer;
 }
 
-.listItem {
-  display: none;
+.listItems {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
-.listItem.active {
-  display: flex;
-  align-items: center;
-  column-gap: 1.5rem;
+li {
+  list-style: none;
+  padding: 24px;
+  border-radius: 24px;
 
   background: white;
-  padding: 1.5rem;
 
-  border-radius: 1.5rem;
-  position: relative;
+  display: flex;
+  column-gap: 24px;
 }
 
-p {
-  line-height: 1.5rem;
-}
-
-.remove {
-  position: absolute;
-  right: 24px;
-}
-
-.checked .active,
-.checked .active path {
+.active,
+.active path {
   fill: #02b553;
   stroke: white;
+  color: #02b553;
+  text-decoration: line-through;
+  font-weight: 700;
 }
