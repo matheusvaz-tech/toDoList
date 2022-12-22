@@ -10,7 +10,7 @@ O projeto teve o objetivo de consolidar o aprendizado de Javascript DOM ao criar
 
 - HTML;
 - CSS;
-- Javascript e DOM;
+- DOM Javascript;
 - Git CLI.
 
 ## Contacts
